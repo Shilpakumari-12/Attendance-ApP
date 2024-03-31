@@ -46,5 +46,6 @@ async function divFunction(contractInstance, account, num1, num2){
     console.log("Res:",res2);
     return res2.events.success.returnValues.value;
 }
-
+// connect metamask web3.0
 export {connectWeb3, addFunction, subFunction, mulFunction, divFunction, connectWeb3Metamask}
+
